@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="javascript.js" defer ></script>
+    <title>Sign Up</title>
+  </head>
+  <body>
+    <div class="main">
+      <div class="left-side">
+        <div class="logo">
+          <img src="./flamingo.png" alt="logo" class="flamingo-logo" />
+          <h1 class="flamingo">Flamin' Go</h1>
+        </div>
+      </div>
+      <div class="right-side">
+        <div class="dummy-text">
+          This is not a real online service! Lorem ipsum dolor sit amet
+          consectetur adipisicing elit. Neque unde recusandae corporis
+          voluptate, distinctio. Sign up
+          <b>now</b> to get started.
+        </div>
+        <div class="dummy-text-2">You <b>know</b> you want to.</div>
+        <form action="#">
+          <div class="fill-in">
+            <div class="container">
+              <label for="name">FIRST NAME:</label>
+              <input
+                type="text"
+                id="firstName"
+                name="firstName"
+                required
+                minlength="3"
+              />
+            </div>
+            <div class="container">
+              <label for="name">LAST NAME:</label>
+              <input type="text" id="lastName" name="lastName" />
+            </div>
+            <div class="container">
+              <label for="email">EMAIL:</label>
+              <input type="email" id="email" name="email" required />
+            </div>
+            <div class="container">
+              <label for="phone_number">PHONE NUMBER:</label>
+              <input type="tel" id="phone_number" name="phone_number" />
+            </div>
+            <div class="container">
+              <label for="password">PASSWORD:</label>
+              <input type="password" id="password" name="password" required />
+            </div>
+            <div class="container">
+              <label for="confirmPassword">CONFIRM PASSWORD:</label>
+              <input
+                type="password"
+                id="confirmPassword"
+                name="password"
+                required
+              />
+            </div>
+          </div>
+          <button>Create Account</button>
+        </form>
+
+        <div class="sign-in">Already have an account? <a href="#"> Log In</a></div></div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  padding: 0;
+  margin: 0;
+}
+
+.main {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.logo {
+  display: flex;
+  flex-flow: row wrap;
+}
+.left-side {
+  background-position: center;
+  background-size: auto;
+  background-repeat: no-repeat;
+  width: 40vw;
+}
+
+.logo {
+  height: auto;
+  background-color: rgba(75, 75, 75, 0.199);
+  position: relative;
+  top: 8vh;
+  gap: 1vw;
+  padding: 5px 0;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.left-side {
+  background-image: url("background.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 50rem;
+  /* height: 40rem; */
+}
+
+h1 {
+  color: rgb(235, 235, 235);
+}
+
+.flamingo-logo {
+  height: 10vh;
+}
+
+.right-side {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 3rem;
+}
+
+.dummy-text,
+.dummy-text-2 {
+  color: rgb(185, 185, 185);
+  font-size: 1.1rem;
+}
+
+.dummy-text {
+  margin-bottom: 40px;
+}
+
+.fill-in {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  width: 100vh;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  margin-bottom: 2rem;
+
+  box-shadow: rgba(41, 8, 29, 0.4) 0px 5px, rgba(53, 10, 37, 0.3) 0px 10px,
+    rgba(29, 6, 20, 0.2) 0px 15px, rgba(24, 5, 17, 0.1) 0px 20px,
+    rgba(19, 4, 13, 0.05) 0px 25px;
+}
+
+.container {
+  flex: 40%;
+  color: #515151;
+  font-size: 1.1rem;
+}
+
+input {
+  width: 100%;
+  color: rgb(98, 98, 98);
+  background-color: black;
+  border: 1px solid #222222;
+  border-radius: 3px;
+}
+
+input:focus {
+  border: 1px solid rgb(213, 45, 118);
+  outline: none;
+  caret-color: gray;
+}
+
+label {
+  font-size: 0.76rem;
+  /* font-weight: bold; */
+}
+
+button {
+  background-color: black;
+  color: #fd3975;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 1.1rem;
+  padding: 0.8rem 1.7rem;
+  border: 2px solid #fd3975;
+  border-radius: 15px;
+  box-shadow: 0 3px rgb(38, 38, 38);
+}
+
+button:hover {
+  color: black;
+  background-color: #fd3975;
+}
+button:active {
+  /* background-color: #3e8e41; */
+  box-shadow: 0 3px #666;
+  transform: translateY(2px);
+}
+
+.sign-in {
+  margin-top: 2rem;
+  color: rgb(185, 185, 185);
+  font-size: 1.1rem;
+}
+
+a {
+  color: rgb(213, 45, 118);
+  text-decoration: none;
+  font-weight: bold;
+}
+a:hover {
+  color: white;
+}
